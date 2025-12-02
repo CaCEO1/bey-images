@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Local product data and packages
+Package4/
+Pack2/
+
+# Local CSV data files
+ebay_product_data.csv
+ebay_uploads.csv
+generated_skus.csv
+product_image_urls.csv
+eBay-draft-listing-template-*.csv
+
+# Python scripts (keep in local repo only)
+batch_upload_product.py
+update_csv_all_images.py
+update_csv_urls.py
+
+# Documentation (optional - uncomment if you want to track these)
+# CLAUDE.md
+# GEMINI.md
+# IMAGE_HOSTING_SETUP.md
+
+# Claude agents
+.claude/

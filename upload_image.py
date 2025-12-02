@@ -70,13 +70,13 @@ class GitHubImageUploader:
             return None
 
         # Generate and return URL
-        url = f"https://raw.githubusercontent.com/{self.github_username}/{self.repo_name}/main/images/{dest_name}"
+        url = f"https://raw.githubusercontent.com/{self.github_username}/{self.repo_name}/refs/heads/main/images/{dest_name}"
         return url
 
 def main():
     # Configuration - UPDATE THESE!
-    GITHUB_USERNAME = "your-username"  # Change this to your GitHub username
-    REPO_NAME = "ebay-images"          # Change this to your repo name
+    GITHUB_USERNAME = "CaCEO1"  # Change this to your GitHub username
+    REPO_NAME = "bey-images"          # Change this to your repo name
 
     if GITHUB_USERNAME == "your-username":
         print("⚠️  Please edit this script and set your GITHUB_USERNAME and REPO_NAME")
