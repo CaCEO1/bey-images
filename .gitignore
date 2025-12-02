@@ -6,6 +6,7 @@
 # Local product data and packages
 Package4/
 Pack2/
+image_db/
 
 # Local CSV data files
 ebay_product_data.csv
