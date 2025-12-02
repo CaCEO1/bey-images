@@ -20,10 +20,29 @@ batch_upload_product.py
 update_csv_all_images.py
 update_csv_urls.py
 
-# Documentation (optional - uncomment if you want to track these)
-# CLAUDE.md
-# GEMINI.md
-# IMAGE_HOSTING_SETUP.md
+# Documentation
+CLAUDE.md
+GEMINI.md
+IMAGE_HOSTING_SETUP.md
 
 # Claude agents
 .claude/
+
+# Data directories
+EBAY_DATA_1/
+
+# Build artifacts
+*.class
+
+# Java source
+GridBagLayoutExample2.java
+
+# Category data
+categoriesUS.csv
+
+# Shell scripts
+register_and_upload_all.sh
+upload_all_products.sh
+
+# Python upload script
+upload_image.py
