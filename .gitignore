@@ -16,7 +16,7 @@ product_image_urls.csv
 eBay-draft-listing-template-*.csv
 
 # Python scripts (keep in local repo only)
-batch_upload_product.py
+
 update_csv_all_images.py
 update_csv_urls.py
 
@@ -48,3 +48,4 @@ upload_all_products.sh
 upload_image.py
 tools/
 process_markdowns/
+PROJECT_DATA/
