@@ -42,7 +42,7 @@ categoriesUS.csv
 
 # Shell scripts
 register_and_upload_all.sh
-upload_all_products.sh
+
 
 # Python upload script
 upload_image.py
