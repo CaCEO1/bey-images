@@ -46,3 +46,5 @@ upload_all_products.sh
 
 # Python upload script
 upload_image.py
+tools/
+process_markdowns/
